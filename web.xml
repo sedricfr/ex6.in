@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<servlet>
+<servlet-name>DatabaseAccess</servlet-name>
+   <servlet-class>loassign</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+   <servlet-name>DatabaseAccess</servlet-name>
+   <url-pattern>/movies</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DatabaseAccess1</servlet-name>
+   <servlet-class>loassign1</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+   <servlet-name>DatabaseAccess1</servlet-name>
+   <url-pattern>/comment</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
